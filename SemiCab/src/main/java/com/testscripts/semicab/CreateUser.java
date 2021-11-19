@@ -5,6 +5,7 @@ import java.awt.event.KeyEvent;
 
 import org.apache.commons.lang3.RandomStringUtils;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.Reporter;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
@@ -76,7 +77,7 @@ public class CreateUser extends Base {
 		hp.getSignIn().click();
 		test.log(LogStatus.PASS, "Logged in as "+email);
 		test.log(LogStatus.PASS, "Verifed Auto-Activation process with verification code");
-		
+		Reporter.log("User creation has been verified successfully", true);
 		test.log(LogStatus.PASS, "User creation has been verified successfully");
 	}
 }
