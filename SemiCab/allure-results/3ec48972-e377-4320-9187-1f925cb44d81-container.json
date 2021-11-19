@@ -1,0 +1,1 @@
+{"uuid":"3ec48972-e377-4320-9187-1f925cb44d81","name":"Default suite","children":["0a1dc1d4-5e8e-4282-874b-842516758557"],"befores":[{"name":"configBC","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1635418982040,"stop":1635418984272}],"afters":[],"links":[],"start":1635418982001,"stop":1635418995629}
